@@ -17,6 +17,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.events-bg{
+  background: url('assets/events-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about-bg{
   background: url('assets/about-bg.svg');
   background-position: center;

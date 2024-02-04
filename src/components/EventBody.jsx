@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import EventCard from "./EventCard";
+import {events} from "../../eventData";
 
 const EventBody = () => {
+    const [search, setSearch] = useState("");
+    const [event,setEvent] = useState(events);
+
+    useEffect(() => {
+        handleSearch();
+      }, [search]);
+    
+      const handleSearch = () => {
+        if (search != "") {
+          const filtered = events.filter((event) =>
+            event.name.toLowerCase().includes(search.toLowerCase())
+          );
+          setEvent(filtered);
+        } else {
+          setEvent(events);
+        }
+      };
+
   return (
     <div className="w-full flex flex-col items-center py-8">
       <h2 className="poppins-medium text-2xl mb-4">Search for events here</h2>
@@ -20,9 +40,11 @@ const EventBody = () => {
           />
         </svg>
         <input
-          className="bg-transparent poppins-regular pl-4"
+          className="bg-transparent poppins-regular pl-4 focus:outline-none focus:ring-0"
           type=""
           placeholder="Search event names..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
         />
       </div>
       <p className="poppins-regular px-4 text-center mt-4">
@@ -30,6 +52,13 @@ const EventBody = () => {
         category and{" "}
         <span className="text-secondary poppins-medium">register now</span>
       </p>
+      <div className="w-full flex flex-wrap p-4 gap-5 justify-center">
+        {
+            event.map((obj,index)=>{
+                return <EventCard key={index} name={obj.name} price={obj.price} form={obj.form}/>
+            })
+        }
+      </div>
     </div>
   );
 };

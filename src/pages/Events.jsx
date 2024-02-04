@@ -4,7 +4,7 @@ import React from "react";
 const Events = () => {
   return (
     <section id="events">
-      <div className="w-full h-max flex flex-col items-center text-white p-4">
+      <div className="w-full h-max flex flex-col events-bg items-center text-white p-4">
         <h1 className=" flex md:flex-col poppins-semibold text-3xl md:text-4xl text-center pb-4">
           <span>
             Welcome to our Festival <br className="hidden md:block" /> Event
