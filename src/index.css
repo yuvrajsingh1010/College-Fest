@@ -5,7 +5,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+.about-bg{
+  background: url('assets/about-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payment-bg{
+  background: url('assets/payment-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -34,5 +51,5 @@
   font-style: normal;
 }
 .button{
-  @apply rounded-3xl p-2 text-white border-2 border-secondary poppins-regular
+  @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular
 }
