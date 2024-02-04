@@ -11,6 +11,12 @@
 *::-webkit-scrollbar{
   display: none;
 }
+.hero-bg{
+  background: url('assets/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about-bg{
   background: url('assets/about-bg.svg');
   background-position: center;

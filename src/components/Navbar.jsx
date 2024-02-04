@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-32 flex items-center justify-between px-8 ">
+    <div className="w-full h-32 flex items-center justify-between bg-black bg-opacity-50 px-8 fixed">
       <h1 className="poppins-bold text-white text-xl">
         SHIKHAR<span className="text-secondary">S24</span>
       </h1>

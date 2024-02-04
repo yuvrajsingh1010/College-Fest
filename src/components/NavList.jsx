@@ -1,7 +1,6 @@
 import React from "react";
 
 const NavList = () => {
-
   const list = [
     {
       label: "Home",
@@ -32,10 +31,11 @@ const NavList = () => {
           <li
             key={key}
             className={`text-lg p-2 hover:cursor-pointer ${
-              isActive && "bg-violet-200 bg-opacity-10 md:bg-transparent md:border-b-4 md:border-secondary"
+              isActive &&
+              "bg-violet-200 bg-opacity-10 md:bg-transparent md:border-b-4 md:border-secondary"
             }`}
           >
-            {obj.label}
+            <a href={obj.route}>{obj.label}</a>
           </li>
         );
       })}

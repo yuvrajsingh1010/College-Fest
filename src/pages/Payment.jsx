@@ -1,6 +1,7 @@
 import React from "react";
 import vector1 from "../assets/payment-vector-1.svg";
 import vector2 from "../assets/payment-vector-2.svg";
+import logo from "../assets/shikhar.svg";
 
 const Payment = () => {
   return (
@@ -55,6 +56,9 @@ const Payment = () => {
           </svg>
         </button>
       </div>
+        <div className="w-full h-80 flex justify-center items-center px-4">
+            <img src={logo} className="h-full w-auto" alt="" />
+        </div>
     </section>
   );
 };
