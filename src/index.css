@@ -35,6 +35,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact-bg{
+  background: url('assets/contact page bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
