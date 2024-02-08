@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <section id="home">
-      <div className="w-full h-screen flex justify-center items-center hero-bg">
+      <div className="w-full h-screen flex justify-center items-center md:items-end md:pb-12 hero-bg">
         <div className="flex flex-col text-center text-white items-center md:mt-20 gap-2">
           <h1 className="reem-kufi text-4xl md:text-6xl">SHIKAR</h1>
           <h1 className="reem-kufi text-3xl md:text-6xl">MANAGEMENT FEST</h1>

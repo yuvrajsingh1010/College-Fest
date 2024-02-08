@@ -5,6 +5,7 @@ import {events} from "../../eventData";
 const EventBody = () => {
     const [search, setSearch] = useState("");
     const [event,setEvent] = useState(events);
+    const form = 'https://docs.google.com/forms/d/e/1FAIpQLSd2UHCFZ4cp-DE4cwp8nr2m6Iegm8Mvx8Z4YnE-UAukZ1CgBg/viewform'
 
     useEffect(() => {
         handleSearch();
@@ -55,7 +56,7 @@ const EventBody = () => {
       <div className="w-full flex flex-wrap p-4 gap-5 justify-center">
         {
             event.map((obj,index)=>{
-                return <EventCard key={index} name={obj.name} price={obj.price} form={obj.form}/>
+                return <EventCard key={index} name={obj.name} perHead={obj.perHead} perTeam={obj.perTeam} form={form}/>
             })
         }
       </div>
