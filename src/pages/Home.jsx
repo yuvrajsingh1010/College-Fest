@@ -13,9 +13,13 @@ const Home = () => {
             <sup className="font-features sups">rd</sup> 2024]
           </p>
           <p className="poppins-regular ">
-           "Here wonders await around every corner"
+            "Here wonders await around every corner"
           </p>
-          <button className="button w-40 bg-secondary mt-6 poppins-regular">Register now</button>
+          <a href="#events">
+            <button className="button w-40 bg-secondary mt-6 poppins-regular">
+              Register now
+            </button>
+          </a>
         </div>
       </div>
     </section>

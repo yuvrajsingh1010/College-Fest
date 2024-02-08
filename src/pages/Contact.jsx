@@ -52,31 +52,33 @@ const Contact = () => {
             </div>
             <div className="bg-pink-800  w-1/12  bg-opacity-75 rounded-l-2xl "></div>
 
-            <div className="bg-pink-800 h-full   text-left pt-6 ">
-              <div className="flex flex-col ">
-                <h1 className="text-2xl md:text-4xl poppins-semibold ">
-                  Contact us
-                </h1>
-                <p className=" text-xs md:text-sm poppins-regular mb-4">
-                  {" "}
-                  For more details and queries
-                </p>
-                <input
-                  className=" w-full lg:w-96 mb-2 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base"
-                  placeholder="Name"
-                ></input>
-                <input
-                  className="w-full mb-2 mt-1 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base"
-                  placeholder="Email"
-                ></input>
-                <input
-                  className="w-full mb-2 mt-1 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base" 
-                  placeholder="Message"
-                ></input>
-                <div className="flex justify-end items-end">
-                  <button className="button h-10 w-24 m-2 bg-secondary  poppins-regular">
-                    Send
-                  </button>
+            <div className="bg-pink-800  bg-opacity-75">
+              <div className="bg-pink-800 h-full   text-left pt-6 rounded-l-2xl">
+                <div className="flex flex-col ">
+                  <h1 className="text-2xl md:text-4xl poppins-semibold ">
+                    Contact us
+                  </h1>
+                  <p className=" text-xs md:text-sm poppins-regular mb-4">
+                    {" "}
+                    For more details and queries
+                  </p>
+                  <input
+                    className=" w-full lg:w-96 mb-2 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base"
+                    placeholder="Name"
+                  ></input>
+                  <input
+                    className="w-full mb-2 mt-1 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base"
+                    placeholder="Email"
+                  ></input>
+                  <input
+                    className="w-full mb-2 mt-1 md:mb-1 bg-pink-800 placeholder-white border-b border-pink-400 text-sm md:text-base"
+                    placeholder="Message"
+                  ></input>
+                  <div className="flex justify-end items-end">
+                    <button className="button h-10 w-24 m-2 bg-secondary  poppins-regular">
+                      Send
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

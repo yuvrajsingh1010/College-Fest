@@ -9,8 +9,8 @@ const Payment = () => {
       <div className="w-full h-max lg:min-h-screen flex flex-col items-center payment-bg text-white p-6">
         <h1 className=" flex md:flex-col poppins-semibold text-3xl md:text-4xl text-center pb-4">
           <span>
-            Welcome to our Festival <br className="hidden md:block" /> Payment
-            Page
+            Where Wonder Awaits You <br className="hidden md:block" /> At Every
+            Corner
           </span>
         </h1>
         <p className="poppins-medium">
@@ -38,27 +38,10 @@ const Payment = () => {
             </p>
           </div>
         </div>
-        <button className="button flex items-center bg-secondary text-s gap-2 hover:bg-pink-700">
-          Pay now
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-5 h-5 text-white"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M15 8.25H9m6 3H9m3 6-3-3h1.5a3 3 0 1 0 0-6M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-            />
-          </svg>
-        </button>
       </div>
-        <div className="w-full h-80 flex justify-center items-center px-4">
-            <img src={logo} className="h-full w-auto" alt="" />
-        </div>
+      <div className="w-full h-80 flex justify-center items-center px-4">
+        <img src={logo} className="h-full w-auto" alt="" />
+      </div>
     </section>
   );
 };

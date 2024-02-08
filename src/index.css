@@ -71,3 +71,8 @@
 .button{
   @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular
 }
+
+html
+{
+  scroll-behavior: smooth;
+}
