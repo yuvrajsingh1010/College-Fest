@@ -60,7 +60,7 @@ export const events = [
         form: "abcd"
     },
     {
-        name: "Corporate Work",
+        name: "Corporate Walk",
         perHead: "",
         perTeam: 1500,
         form: "abcd"
