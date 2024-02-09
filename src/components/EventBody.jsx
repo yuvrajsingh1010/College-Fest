@@ -5,7 +5,7 @@ import {events} from "../../eventData";
 const EventBody = () => {
     const [search, setSearch] = useState("");
     const [event,setEvent] = useState(events);
-    const form = 'https://docs.google.com/forms/d/e/1FAIpQLSd2UHCFZ4cp-DE4cwp8nr2m6Iegm8Mvx8Z4YnE-UAukZ1CgBg/viewform'
+    const form = 'https://tally.so/r/nW5rPJ'
 
     useEffect(() => {
         handleSearch();

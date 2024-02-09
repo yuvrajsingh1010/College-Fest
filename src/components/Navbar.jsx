@@ -2,12 +2,14 @@ import React from "react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import NavList from "./NavList";
 import { Separator } from "@/components/ui/separator";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
     <div className="w-full h-32 flex items-center justify-between bg-black bg-opacity-50 px-8 fixed">
-      <h1 className="poppins-bold text-white text-xl">
-        SHIKHAR<span className="text-secondary">S24</span>
+      <h1 className="flex items-center poppins-bold text-white text-xl">
+      <img src={logo} className="w-20 h-auto" />
+        SHIKHAR'<span className="text-secondary">24</span>
       </h1>
       <div className="hidden md:block">
         <NavList />
@@ -32,7 +34,7 @@ const Navbar = () => {
         <SheetContent className="bg-primary border-none">
           <div className="flex flex-col py-4">
             <h1 className="poppins-bold text-white text-xl">
-              SHIKHAR<span className="text-secondary">S24</span>
+              SHIKHAR'<span className="text-secondary">24</span>
             </h1>
               <Separator className="bg-secondary my-4"/>
             <NavList />

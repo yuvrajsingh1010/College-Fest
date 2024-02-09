@@ -7,18 +7,18 @@ export const events = [
     },
     {
         name: "Football",
-        perHead: 120,
+        perHead: "",
         perTeam: 600,
         form: "abcd"
     },
     {
         name: "IPL Auction",
-        perHead: 200,
-        perTeam: 800,
+        perHead: 250,
+        perTeam: 1000,
         form: "abcd"
     },
     {
-        name: "Best Management Game",
+        name: "Best Management Team",
         perHead: 300,
         perTeam: 1200,
         form: "abcd"
@@ -31,30 +31,30 @@ export const events = [
     },
     {
         name: "HR Game",
-        perHead: 250,
-        perTeam: 1000,
+        perHead: 300,
+        perTeam: 1200,
         form: "abcd"
     },
     {
         name: "Treasure Hunt",
-        perHead: 250,
-        perTeam: 1000,
+        perHead: 200,
+        perTeam: 800,
         form: "abcd"
     },
     {
         name: "Operations Game",
-        perHead: 250,
-        perTeam: 1000,
+        perHead: 300,
+        perTeam: 1200,
         form: "abcd"
     },
     {
         name: "Finance Game",
-        perHead: 250,
-        perTeam: 1000,
+        perHead: 300,
+        perTeam: 1200,
         form: "abcd"
     },
     {
-        name: "Buisness Quiz",
+        name: "Business Quiz",
         perHead: 250,
         perTeam: 500,
         form: "abcd"
@@ -74,19 +74,19 @@ export const events = [
     {
         name: "Mobile Photography",
         perHead: 200,
-        perTeam: 200,
+        perTeam: "",
         form: "abcd"
     },
     {
         name: "Ideathon",
-        perHead: 200,
-        perTeam: 800,
+        perHead: 250,
+        perTeam: 1000,
         form: "abcd"
     },
     {
         name: "Spot Dance",
         perHead: 250,
-        perTeam: 0,
+        perTeam: "",
         form: "abcd"
     },
     

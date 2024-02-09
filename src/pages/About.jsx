@@ -42,7 +42,6 @@ const About = () => {
             analytical and mental grit. SHIKHAR’24 will be conducted offline as
             enthusiastically as last year with high spirits of the students.
           </p>
-          <button className="button w-40 mt-8">Read more</button>
         </div>
         <div className="md:w-1/2 flex flex-col items-center justify-center text-white">
           <div className="poppins-medium flex items-center lg:text-xl mb-2 pt-4">

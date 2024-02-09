@@ -6,7 +6,7 @@ import logo from "../assets/shikhar.svg";
 const Payment = () => {
   return (
     <section id="payment">
-      <div className="w-full h-max lg:min-h-screen flex flex-col items-center payment-bg text-white p-6">
+      <div className="w-full h-max lg:min-h-screen flex flex-col items-center justify-center payment-bg text-white p-6">
         <h1 className=" flex md:flex-col poppins-semibold text-3xl md:text-4xl text-center pb-4">
           <span>
             Where Wonder Awaits You <br className="hidden md:block" /> At Every

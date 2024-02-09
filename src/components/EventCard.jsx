@@ -15,7 +15,7 @@ const EventCard = ({ name, perHead,perTeam, form }) => {
         <span className="poppins-semibold flex gap-3"> <span className="text-white poppins-bold">Registration per head: </span> {perHead ? `${perHead}/-`: <i>team only</i>}</span>
       </div>
       <div className="w-full flex items-center overflow-hidden p-2 py-3">
-        <span className="poppins-semibold flex gap-3"> <span className="text-white poppins-bold">Registration per team: </span> {perTeam}/-</span>
+        <span className="poppins-semibold flex gap-3"> <span className="text-white poppins-bold">Registration per team: </span> {perTeam ? `${perTeam}/-`: <i>solo only</i>}</span>
       </div>
     </div>
   );
