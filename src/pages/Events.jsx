@@ -25,7 +25,7 @@ const Events = () => {
           </span>
           2024]
         </p>
-        <p className="poppins-regular mt-2">Location: [Event Venue]</p>
+        <p className="poppins-medium mt-2 text-center">Location: [SCMS, Prathap Nagar, Muttom, Aluva, Kochi]</p>
         <EventBody />
       </div>
     </section>
