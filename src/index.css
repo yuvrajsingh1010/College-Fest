@@ -1,42 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Bitter:wght@600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Bitter:wght@600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi+Ink&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Bitter:wght@600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Bitter:wght@600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi+Ink&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   scrollbar-width: none;
 }
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   display: none;
 }
-.hero-bg{
-  background: url('assets/hero.png');
+.hero-bg {
+  background: url("assets/hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.events-bg{
-  background: url('assets/events-bg.svg');
+.events-bg {
+  background: url("assets/events-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-bg{
-  background: url('assets/about-bg.svg');
+.about-bg {
+  background: url("assets/about-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.payment-bg{
-  background: url('assets/payment-bg.svg');
+.payment-bg {
+  background: url("assets/payment-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contact-bg{
-  background: url('assets/contact page bg.svg');
+.contact-bg {
+  background: url("assets/contact page bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,11 +68,10 @@
   font-weight: 700;
   font-style: normal;
 }
-.button{
-  @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular
+.button {
+  @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular;
 }
 
-html
-{
+html {
   scroll-behavior: smooth;
 }
