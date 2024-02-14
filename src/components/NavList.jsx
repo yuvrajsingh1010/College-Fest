@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavList = () => {
+
+  const [isActive,setIsActive] = useState(0);
   const list = [
     {
       label: "Home",
@@ -9,10 +11,6 @@ const NavList = () => {
     {
       label: "About",
       route: "#about",
-    },
-    {
-      label: "Payment",
-      route: "#payment",
     },
     {
       label: "Events",
@@ -26,16 +24,15 @@ const NavList = () => {
   return (
     <ul className="flex flex-col md:flex-row gap-4 text-white poppins-regular">
       {list.map((obj, key) => {
-        const isActive = key === 0;
         return (
           <li
             key={key}
             className={`text-lg p-2 hover:cursor-pointer ${
-              isActive &&
+              (isActive === key) &&
               "bg-violet-200 bg-opacity-10 md:bg-transparent md:border-b-4 md:border-secondary"
             }`}
           >
-            <a href={obj.route}>{obj.label}</a>
+            <a onClick={()=>setIsActive(key)} href={obj.route}>{obj.label}</a>
           </li>
         );
       })}

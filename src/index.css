@@ -5,10 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+html {
+  scroll-behavior: smooth;
+}
+.main{
   scrollbar-width: none;
 }
-*::-webkit-scrollbar {
+.main::-webkit-scrollbar {
   display: none;
 }
 .hero-bg {
@@ -71,7 +74,9 @@
 .button {
   @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular;
 }
-
-html {
-  scroll-behavior: smooth;
+.rules::-webkit-scrollbar{
+  width: 4px;
+}
+.rules::-webkit-scrollbar-thumb{
+  background: white;
 }

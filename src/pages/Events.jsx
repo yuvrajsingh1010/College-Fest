@@ -41,9 +41,9 @@ const Events = () => {
             <DialogTrigger asChild>
               <button className="button mt-4 hover:bg-secondary hover:bg-opacity-20">Rules and Regulations</button>
             </DialogTrigger>
-            <DialogContent className="text-white">
+            <DialogContent className="text-white rules">
               <DialogHeader>
-                <div className="h-96 text-left overflow-scroll">
+                <div className="h-96 text-left overflow-scroll rules">
                 {
                   eventInfo.map((event, index) => (
                     <div key={index}>
