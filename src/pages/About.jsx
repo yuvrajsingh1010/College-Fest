@@ -6,18 +6,18 @@ const About = () => {
   const [mins, setmins] = useState(0);
   const [secs, setsecs] = useState(0);
 
-  const deadline = "February, 22, 2024";
-  const getTime = () => {
-    const time = Date.parse(deadline) - Date.now();
-    setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
-    sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
-    setmins(Math.floor((time / 1000 / 60) % 60));
-    setsecs(Math.floor((time / 1000) % 60));
-  };
-  useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
-    return () => clearInterval(interval);
-  }, []);
+  // const deadline = "February, 22, 2024";
+  // const getTime = () => {
+  //   const time = Date.parse(deadline) - Date.now();
+  //   setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
+  //   sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
+  //   setmins(Math.floor((time / 1000 / 60) % 60));
+  //   setsecs(Math.floor((time / 1000) % 60));
+  // };
+  // useEffect(() => {
+  //   const interval = setInterval(() => getTime(deadline), 1000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <section id="about">
@@ -95,6 +95,7 @@ const About = () => {
               <p className="underline text-xs text-secondary">Seconds</p>
             </div>
           </div>
+          <h1 className="mt-3 poppins-semibold text-xl">The <span className="text-secondary">Festivities</span> have begun !!</h1>
 
           <div className="flex flex-col items-center mt-4">
             <div className="flex flex-row justify-center items-center poppins-regular">

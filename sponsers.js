@@ -24,6 +24,18 @@ export const sponsers = [
         src: './sponsers/usha.jpeg'
     },
     {
+        name: 'inmakes',
+        src: './sponsers/inmakes.png'
+    },
+    {
+        name: 'gsl',
+        src: './sponsers/gsl.png'
+    },
+    {
+        name: 'blackforest',
+        src: './sponsers/blackforest.PNG'
+    },
+    {
         name: 'dreamflower',
         src: './sponsers/dreamflower.png'
     },

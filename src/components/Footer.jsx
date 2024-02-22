@@ -16,9 +16,9 @@ const Footer = () => {
       </div>
       <div className="w-full flex flex-col justify-center items-center">
         <span className="w-full flex items-center justify-center gap-4">
-        <hr className="w-40 text-white border-white" />
-        <h1 className="text-secondary text-3xl poppins-bold text-center">Powered By</h1>
-        <hr className="w-40 text-white border-white" />
+        <hr className="w-12 sm:w-40  text-white border-white" />
+        <h1 className="text-secondary text-3xl poppins-semibold text-center">Powered By</h1>
+        <hr className="w-12 sm:w-40 text-white border-white" />
         </span>
         <div className="py-4 flex flex-col justify-center items-center">
           <img src={mainSponser.src} className="p-4 w-full sm:w-1/2 md:w-1/4 h-auto" alt="" />
