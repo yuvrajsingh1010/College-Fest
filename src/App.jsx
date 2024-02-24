@@ -4,6 +4,7 @@ import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Gallery/>
       <Events />
       <Contact />
       <Footer />

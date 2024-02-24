@@ -32,8 +32,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.payment-bg {
-  background: url("assets/payment-bg.svg");
+.gallery-bg {
+  background: url("assets/gallery-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
