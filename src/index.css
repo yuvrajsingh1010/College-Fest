@@ -15,7 +15,7 @@ html {
   display: none;
 }
 .hero-bg {
-  background: url("assets/hero.png");
+  background: url("assets/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,8 +68,18 @@ html {
 }
 .reem-kufi {
   font-family: "Reem Kufi Ink", sans-serif;
-  font-weight: 700;
+  font-weight: bolder;
   font-style: normal;
+}
+@font-face {
+  font-family: "Aurora";
+  src: url("./assets/Aurora.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-aurora {
+  font-family: "Aurora", sans-serif;
 }
 .button {
   @apply rounded-3xl p-2 px-3 text-white border-2 border-secondary poppins-regular;

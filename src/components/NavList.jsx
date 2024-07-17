@@ -13,6 +13,10 @@ const NavList = () => {
       route: "#about",
     },
     {
+      label: "Gallery",
+      route: "#gallery",
+    },
+    {
       label: "Events",
       route: "#events",
     },
@@ -22,7 +26,7 @@ const NavList = () => {
     },
   ];
   return (
-    <ul className="flex flex-col md:flex-row gap-4 text-white poppins-regular">
+    <ul className="flex flex-col md:flex-row gap-4 md:gap-10 text-white poppins-regular">
       {list.map((obj, key) => {
         return (
           <li
