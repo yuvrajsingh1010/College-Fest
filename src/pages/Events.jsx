@@ -27,7 +27,7 @@ const Events = () => {
         </FadeUp>
         <FadeUp>
           <p className="poppins-medium text-center mb-3">
-            "<span className="text-secondary">Shikhar 24</span>, an immersive
+            "<span className="text-secondary">College 25</span>, an immersive
             collection of culture, creativity and community !"
           </p>
         </FadeUp>
@@ -41,12 +41,12 @@ const Events = () => {
             <span className="text-secondary">
               23<sup className="font-features sups">rd </sup>
             </span>
-            2024]
+            2025]
           </p>
         </FadeUp>
         <FadeUp>
           <p className="poppins-medium mt-2 text-center">
-            Location: [SCMS, Prathap Nagar, Muttom, Aluva, Kochi]
+            Location: [JUET,JIIT,JU]
           </p>
         </FadeUp>
         <Dialog>

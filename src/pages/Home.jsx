@@ -9,22 +9,22 @@ const Home = () => {
         <div className="flex flex-col text-center text-white items-center md:mt-20 gap-2">
           <SlowFade>
             <h1 className="font-medium font-aurora text-4xl md:text-6xl">
-              SHIKHAR
+              COLLEGE
             </h1>
             <h1 className="font-medium font-aurora text-4xl md:text-6xl">
               MANAGEMENT <span className="max-sm:hidden">FEST</span>
             </h1>
             <h1 className="font-medium font-aurora text-4xl md:text-6xl sm:hidden">
-              FEST 2024
+              FEST 2025
             </h1>
             <h1 className="font-medium font-aurora text-3xl md:text-6xl max-sm:hidden">
-              2024
+              2025
             </h1>
           </SlowFade>
           <FadeUp delay={2}>
             <p className="poppins-regular">
               February 22<sup className="font-features sups">nd</sup> & 23
-              <sup className="font-features sups">rd</sup> 2024
+              <sup className="font-features sups">rd</sup> 2025
             </p>
           </FadeUp>
           <FadeUp delay={2}>

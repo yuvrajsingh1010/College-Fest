@@ -18,10 +18,10 @@ const Contact = () => {
             <h1>Save the</h1>
             <h1>date</h1>
             <p className="poppins-regular text-xs flex flex-row mt-4 mb-4 items-center md:text-sm">
-              22 <sup className="font-features sups ml-1">FEB 2024</sup>
+              22 <sup className="font-features sups ml-1">FEB 2025</sup>
             </p>
             <p className="poppins-regular text-xs md:text-sm flex flex-row mt-4 mb-4 items-center">
-              23 <sup className="font-features sups ml-1">FEB 2024</sup>
+              23 <sup className="font-features sups ml-1">FEB 2025</sup>
             </p>
 
             <div className="flex flex-row  poppins-regular text-xs md:text-sm">

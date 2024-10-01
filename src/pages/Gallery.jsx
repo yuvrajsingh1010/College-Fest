@@ -13,17 +13,17 @@ const Gallery = () => {
         <div className="w-full h-full flex flex-wrap gap-4 justify-evenly items-center pb-8">
           <FadeUp>
             <div className="h-44 w-max bg-gray-300 p-2">
-              <img src="/gallery/img-1.jpeg" className="h-full w-auto" alt="" />
+              <img src="/gallery/images (1).jpeg" className="h-full w-auto" alt="" />
             </div>
           </FadeUp>
           <FadeUp>
             <div className="h-44 w-max bg-gray-300 p-2">
-              <img src="/gallery/img-2.jpeg" className="h-full w-auto" alt="" />
+              <img src="/gallery/download.jpeg" className="h-full w-auto" alt="" />
             </div>
           </FadeUp>
           <FadeUp>
             <div className="h-44 w-max bg-gray-300 p-2">
-              <img src="/gallery/img-3.jpeg" className="h-full w-auto" alt="" />
+              <img src="/gallery/BannerFootball.jpg" className="h-full w-auto" alt="" />
             </div>
           </FadeUp>
         </div>

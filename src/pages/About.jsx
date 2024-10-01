@@ -7,18 +7,18 @@ const About = () => {
   const [mins, setmins] = useState(0);
   const [secs, setsecs] = useState(0);
 
-  // const deadline = "February, 22, 2024";
-  // const getTime = () => {
-  //   const time = Date.parse(deadline) - Date.now();
-  //   setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
-  //   sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
-  //   setmins(Math.floor((time / 1000 / 60) % 60));
-  //   setsecs(Math.floor((time / 1000) % 60));
-  // };
-  // useEffect(() => {
-  //   const interval = setInterval(() => getTime(deadline), 1000);
-  //   return () => clearInterval(interval);
-  // }, []);
+   const deadline = "February, 22, 2025";
+   const getTime = () => {
+     const time = Date.parse(deadline) - Date.now();
+     setdays(Math.floor(time / (1000 * 60 * 60 * 24)));
+     sethours(Math.floor((time / (1000 * 60 * 60)) % 24));
+     setmins(Math.floor((time / 1000 / 60) % 60));
+     setsecs(Math.floor((time / 1000) % 60));
+   };
+   useEffect(() => {
+     const interval = setInterval(() => getTime(deadline), 1000);
+     return () => clearInterval(interval);
+   }, []);
 
   return (
     <section id="about">
@@ -32,23 +32,23 @@ const About = () => {
           <FadeUp>
             <h2 className="text-white poppins-medium">
               Welcome to{" "}
-              <span className="text-secondary font-bold">SHIKHAR</span>
+              <span className="text-secondary font-bold">COLLEGE</span>
             </h2>
           </FadeUp>
           <FadeUp>
             <h2 className="text-white poppins-medium">
               MANAGEMENT FEST{" "}
-              <span className="text-secondary font-bold">2024</span>
+              <span className="text-secondary font-bold">2025</span>
             </h2>
           </FadeUp>
           <FadeUp>
             <p className="text-white poppins-medium mt-4 text-justify md:text-left lg:pr-8 leading-relaxed lg:leading-loose">
-              SHIKHAR is the flagship event of SCMS Group of Institutions. It
+            COLLEGE is the flagship event of Many Group of Institutions. It
               gives aspiring managers a taste of challenges to come and attracts
               the most talented and competitive management students from various
               parts of the country. This international fest tests the budding
               professionals on various aspects of teamwork, logical thinking,
-              analytical and mental grit. SHIKHAR’24 will be conducted offline
+              analytical and mental grit. COLLEGE will be conducted offline
               as enthusiastically as last year with high spirits of the
               students.
             </p>
